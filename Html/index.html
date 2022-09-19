@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+
+    <title>Pousada</title>
+  </head>
+  <body id="Home">
+    <header alt="Cabeçalho do site">
+      <div id="bg" alt="Imagem Background hotel" title="Background hotel">
+        <div style="display: flex">
+          <img
+            src="imagens/logo/logo.png"
+            width="15%"
+            alt="Logo Hotel"
+            title="Logo Hotel"
+          />
+          <div
+            style="
+              display: flex;
+              width: 100%;
+              padding-top: 50px;
+              padding-left: 200px;
+            "
+          >
+            <form>
+              <input
+                style="
+                  width: 500px;
+                  height: 46.5px;
+                  border-radius: 15px 0px 0px 15px;
+                  border: none;
+                  background-color: rgba(0, 0, 0, 0.8);
+                  color: rgba(250, 250, 250, 0.3);
+                  font-weight: bold;
+                  font-size: 20px;
+                  padding-left: 15px;
+                  letter-spacing: 0.5px;
+                "
+                type="text"
+                name="pesquisa_site"
+                placeholder="Encontre seu Hotel!"
+              />
+            </form>
+            <input
+              title="pesquisar"
+              type="submit"
+              value="Pesquisar"
+              name=" Login "
+              style="
+                width: 100px;
+                height: 50px;
+                background: black;
+                border: none;
+                color: white;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 0px 15px 15px 0px;
+                padding: 0px 8px 0px 8px;
+              "
+            />
+          </div>
+
+          <div style="margin: 30px 0px 0px 180px">
+            <a href="https://twitter.com/login/"
+              ><img
+                style="margin: 0px 0px 0px 0px"
+                src="imagens/logo/twitterWhite.png"
+                width="22%"
+                alt="Rede social Twitter"
+                title="Twitter"
+            /></a>
+
+            <a href="https://www.instagram.com/"
+              ><img
+                style="margin: 0px 0px 0px 0px"
+                src="imagens/logo/instagramWhite.png"
+                width="22%"
+                alt="Rede social Instagram"
+                title="Instagram"
+            /></a>
+          </div>
+        </div>
+        <span>
+          <ul id="opcoes" alt="Opções de navegação pelo site" title="opções">
+            <li id="Home" class="menu" style="border-radius: 15px 0px 0px 15px">
+              <a href="index.html" alt="Opção 1 página inicial" title="HOME"
+                >HOME</a
+              >
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;
+            </li>
+            <li id="Hoteis" class="menu">
+              <a href=" Hoteis.html" alt="Opção 2 acessar hotéis" title="HOTÉIS"
+                >HOTE&#769;IS</a
+              >
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;
+            </li>
+            <li
+              id="Reservar"
+              class="menu"
+              alt="Opção 3 Reservar hotéis"
+              title="RESERVAR"
+            >
+              <a href="Reservar.html">RESERVAR&nbsp;</a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;
+            </li>
+            <li
+              class="menu"
+              alt="Opção 4 Conheça-nos um pouco mais"
+              title="SOBRE NÓS"
+              style="border-radius: 0px 15px 15px 0px"
+            >
+              <a href="Sobre_nos.html">SOBRE&nbsp;NO&#769;S</a>
+            </li>
+          </ul>
+        </span>
+      </div>
+    </header>
+
+    <nav id="navegacao" alt="Navegação pelo site ">
+      <section class="grid">
+        <div class="conteudo1" alt="Cidades onde temos hóteis disponíveis">
+          <h4 class="titulo" alt="Título: onde estamos" title="Onde estamos?">
+            Onde estamos?
+          </h4>
+          <ul class="cidades">
+            <li class="cidades" alt="São Paulo" title="São Paulo">
+              Sa&#771;o Paulo
+            </li>
+            <li class="cidades" alt="Rio de Janeiro" title="Rio de Janeiro">
+              Rio de Janeiro
+            </li>
+            <li class="cidades" alt="Belo Horizonte" title="Belo Horizonte">
+              Belo Horizonte
+            </li>
+            <li class="cidades" alt="Curitiba" title="Curitiba">Curitiba</li>
+            <li class="cidades" alt="Brasília" title="Brasilia">
+              Brasi&#769;lia
+            </li>
+          </ul>
+        </div>
+        <div
+          class="conteudo2"
+          alt="Imagens dos nossos ambientes"
+          title="Nossos espaços"
+        >
+          <h4 class="titulo">Nossos espaços</h4>
+          <div class="ambiente" style="border-bottom: 1px solid #cccccc">
+            <div>
+              <img src="imagens/Hoteis(ambientes)/imagem1.jpg" />
+            </div>
+            <div id="texto-ambientes" style="margin-right: 10px">
+              <a
+                href="quartosHoteis.html"
+                alt="Quartos de luxo"
+                title="Quartos de luxo"
+              >
+                <h4 style="margin-top: 6px">Temos quartos de luxo!</h4>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </a>
+            </div>
+          </div>
+          <div class="ambiente" style="border-bottom: 1px solid #cccccc">
+            <div>
+              <img src="imagens/Hoteis(ambientes)/imagem2.jpg" />
+            </div>
+            <div id="texto-ambientes" style="margin-right: 10px">
+              <a
+                href="salasJantar.html"
+                alt="Salas de jantar"
+                title="Salas de jantar"
+              >
+                <h4 style="margin-top: 6px">Salas de jantar exclusivas!</h4>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </a>
+            </div>
+          </div>
+          <div class="ambiente" style="border-radius: 0px 0px 15px 15px">
+            <div>
+              <img src="imagens/Hoteis(ambientes)/imagem3.jpg" />
+            </div>
+            <div id="texto-ambientes" style="margin-right: 10px">
+              <a href="academiaHotel.html" alt="Academia" title="Academia">
+                <h4 style="margin-top: 6px">
+                  Academia completa e climatizada!
+                </h4>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </a>
+            </div>
+          </div>
+          &nbsp;
+        </div>
+        <div
+          class="conteudo3"
+          alt="Últimas notícias da semana"
+          title="Notícias"
+        >
+          <h4 class="titulo">Mais avaliado</h4>
+          <div id="mais_avaliado">
+            <a href="">
+              <img
+                onmouseover="mouse()"
+                onmouseout="mouseDown()"
+                class="slide"
+                id="slide"
+                src=""
+                style="border-radius: 15px"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+    </nav>
+
+    <footer>
+      <section id="direitos">
+        <span><b>&copy; TODOS OS DIREITOS RESERVADOS</b></span>
+      </section>
+    </footer>
+    <script src="JS/MeuScript.js"></script>
+  </body>
+</html>

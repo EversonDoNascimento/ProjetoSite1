@@ -1,0 +1,286 @@
+/*Inicio página inicial*/
+
+body {
+  margin: 0px;
+  font-family: helvetica, arial, sans-serif;
+  background-color: black;
+}
+
+header {
+  width: 100%;
+  height: 40%;
+}
+
+#bg {
+  background-image: url(imagens/BG4.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+ul#opcoes {
+  padding-top: 500px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: 29%;
+  margin-bottom: 0px;
+}
+
+.menu {
+  color: white;
+  display: inline;
+  background-color: black;
+  padding: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav#navegacao {
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+div.conteudo1 {
+  border-radius: 15px;
+  width: 250px;
+  height: 300px;
+  background-color: #292c37;
+  padding-right: 0px;
+}
+
+div.conteudo2 {
+  border-radius: 15px;
+  width: 2fr;
+  height: auto;
+  background-color: #292c37;
+  padding-right: 0px;
+}
+
+div.conteudo3 {
+  border-radius: 15px;
+  width: 1fr;
+  height: 72%;
+  background-color: #292c37;
+}
+li.cidades {
+  border-bottom: 1px solid #cccccc;
+  width: 200px;
+  padding-top: 15px;
+  text-align: left;
+}
+
+ul.cidades {
+  padding-left: 25px;
+}
+
+.titulo {
+  color: #292c37;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid pink;
+  background-color: #cccccc;
+  border-radius: 15px 15px 0px 0px;
+  margin-top: 0px;
+}
+
+.grid {
+  margin: 50px 25px 0px 25px;
+
+  display: grid;
+  grid-template-columns: 0.8fr 2fr 1fr;
+  gap: 10px 20px;
+}
+
+section#direitos {
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  background-color: #cccccc;
+  color: #292c37;
+}
+
+ul#opcoes a:hover {
+  border-radius: 15px;
+  padding: 12px;
+  color: #292c37;
+  background-color: #cccccc;
+}
+
+div#bg a:hover {
+  font-weight: bold;
+  width: 10px;
+}
+
+div#bg a:hover img {
+  max-width: 40px;
+  max-height: 40px;
+  width: auto;
+}
+
+li.cidades a:hover {
+  color: #cccccc;
+  font-size: 20px;
+}
+
+div.ambiente {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #cccccc;
+  margin: 0px 10px 10px 10px;
+  height: 200px;
+  width: 97%;
+}
+
+div.ambiente img {
+  box-shadow: 3px 3px 10px black;
+  border-radius: 15px;
+  margin-left: 10px;
+  width: 280px;
+  height: 95%;
+}
+
+div#texto-ambientes p {
+  text-align: justify;
+  margin-left: 10px;
+}
+
+#mais_avaliado {
+  border-radius: 15px;
+  padding-left: 15px;
+  width: 300px;
+  height: 400px;
+}
+
+div#texto-ambientes a:hover {
+  color: #cccccc;
+  font-size: 17px;
+  margin-bottom: 5px;
+  background-color: white;
+}
+
+#Home #Home a,
+#Reservar #Reservar a,
+#Hoteis #Hoteis a,
+#Sobre_nos #Sobre_nos a {
+  border-radius: 15px;
+  padding: 12px;
+  color: #292c37;
+  background-color: #cccccc;
+}
+/* Fim página inicial*/
+
+/*Inicio página Reservar*/
+
+#nav-Reservar {
+  margin: 50px 25px 0px 25px;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  gap: 20px;
+}
+
+section#nav-Reservar div.conteudo1 {
+  background-color: #292c37;
+  width: 100%;
+  height: 100%;
+  color: #cccccc;
+  text-align: left;
+}
+
+.subtitulo {
+  padding-left: 15px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.checkbox {
+  font-size: 14px;
+  padding-left: 30px;
+}
+
+section#nav-Reservar div.conteudo2 {
+  background-color: #292c37;
+  width: 100%;
+  height: 100%;
+}
+
+/*Inicio Hoteis*/
+
+section#nav-Hoteis {
+  margin: 60px 0px 0px 0px;
+  padding: 0px;
+  font: 16px "Lato", "Arial", sans-serif;
+  height: 100%;
+}
+
+section#nav-Hoteis h3 {
+  font-size: 29px;
+  border-radius: 15px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  background-color: #cccccc;
+  color: #292c37;
+}
+
+.grid-Hoteis {
+  border-radius: 15px;
+  padding: 0px 10px 0px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: #292c37;
+}
+
+.imagem-Hoteis {
+  border-radius: 15px;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  box-shadow: 3px 3px 10px black;
+}
+
+.grid-Hoteis p {
+  color: #cccccc;
+  padding-top: 30%;
+  text-align: justify;
+}
+
+/*Fim Hoteis*/
+/*Começo sobre-nos*/
+
+section#nav-sobre-nos h3 {
+  font-size: 29px;
+  border-radius: 15px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  background-color: #cccccc;
+  color: #292c37;
+}
+
+.conteudo-sobre-nos {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  background-color: #292c37;
+}
+
+.conteudo-sobre-nos p {
+  padding: 20px 20px 40px 20px;
+  color: #cccccc;
+  text-align: justify;
+}
