@@ -216,6 +216,29 @@ section#nav-Reservar div.conteudo2 {
 }
 
 .apartamentos {
+  color: #cccccc;
+  display: flex;
+  margin: 0px 15px 20px 15px;
+}
+
+.apartamentos div {
+  width: 50%;
+  padding-right: 25px;
+}
+
+.apartamentos div img {
+  border-radius: 15px 0px 0px 15px;
+}
+
+.apartamentos div p {
+  padding-left: 20px;
+  text-align: justify;
+}
+
+#linha-vertical {
+  border-left: solid 1px white;
+
+  width: 0px;
 }
 
 /*Inicio Hoteis*/
