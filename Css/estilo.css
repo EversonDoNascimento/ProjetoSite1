@@ -215,30 +215,41 @@ section#nav-Reservar div.conteudo2 {
   height: 100%;
 }
 
-.apartamentos {
+.apartamentos a {
   color: #cccccc;
   display: flex;
   margin: 0px 15px 20px 15px;
+  width: 98%;
+  height: 220px;
 }
 
-.apartamentos div {
+.apartamentos a:hover {
+  box-shadow: 3px 3px 10px black;
+  background-color: #21242c;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+.apartamentos a div {
   width: 50%;
   padding-right: 25px;
 }
 
-.apartamentos div img {
+.apartamentos a div img {
+  height: 100%;
   border-radius: 15px 0px 0px 15px;
 }
 
-.apartamentos div p {
+.apartamentos a div p {
+  font-size: 14px;
   padding-left: 20px;
   text-align: justify;
 }
 
-#linha-vertical {
-  border-left: solid 1px white;
-
-  width: 0px;
+.atributos-quarto {
+  font-size: 14px;
+  padding: 5px;
+  background-color: blue;
 }
 
 /*Inicio Hoteis*/
